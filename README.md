@@ -17,6 +17,8 @@
    - POP
    - OOP
  
+- MVVM
+
 - UIKit
    - CollectionView
    - TableView
