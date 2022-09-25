@@ -12,6 +12,9 @@ class InfoViewModel {
     
     private var model = InfoModel()
     
+    
+    
+    
     // Function to Save Data
     func didSaveClicked(title: String, detail: String) {
         model.saveData(title: title, detail: detail)

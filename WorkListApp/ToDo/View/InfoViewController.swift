@@ -21,6 +21,12 @@ class InfoViewController: UIViewController {
         textField.layer.cornerRadius = 10
         textView.layer.cornerRadius = 10
         
+        let tap = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func hideKeyboard() {
+        view.endEditing(true)
     }
     
     
